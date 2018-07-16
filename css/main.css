@@ -2,10 +2,9 @@
 html,
 body {
     text-align: center;
+    background-image: url("../images/idea.jpg");
     font: 100% DroidSerif, Georgia, "Times New Roman", Times, serif;
-    background: #3C6B92;
-    background: -moz-linear-gradient(top, #3c6b92 15%, #e1d8b9 90%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #3c6b92), color-stop(90%, #e1d8b9));
+    
     background-size: cover;    
     margin: 0;
 	background-attachment: fixed;
@@ -106,7 +105,7 @@ img {
 
 .profile_panel{
     width: 200px;
-    background-color: rgba(196, 184, 184, 0.411);
+    background-color: rgba(241, 233, 233, 0.897);
     border-radius: 10px;
     float: left;
     padding: 5px;
@@ -208,11 +207,13 @@ color: #44474a;
 
 .articles{
     width: 950px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
     padding: 5px;
-    background-color: rgba(196, 184, 184, 0.411);
+    background-color: rgba(241, 233, 233, 0.897);
     border-radius: 10px;
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: justify;
 }
 
 
@@ -241,9 +242,16 @@ color: #44474a;
 .settings .articles{
     width: 550px;
     padding: 5px;
-    background-color: rgba(196, 184, 184, 0.411);
+    background-color: rgba(241, 233, 233, 0.897);
     border-radius: 10px;
     float: left;
     margin-bottom: 10px;
     text-align: left;
+}
+
+header{
+    background-color: rgba(241, 233, 233, 0.897);
+    align-self: center;
+    margin-right: 70px;
+    margin-left: 70px;
 }
