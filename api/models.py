@@ -2,6 +2,7 @@ from flask import jsonify
 import os
 from flask import Flask, jsonify, request
 
+'''lets have lists of entries '''
 
 entries=[
  {
