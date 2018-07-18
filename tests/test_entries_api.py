@@ -59,7 +59,7 @@ class TestEntries(TestBase):
                 'api/v1/entries/{}'.format(entry[1]),
                 content_type='application/json',
                 data=json.dumps(entry1))
-
+                
         self.assertEqual(result.status_code, 200)
         self.assertIn(entry[1], str(result.data), 404)
 
