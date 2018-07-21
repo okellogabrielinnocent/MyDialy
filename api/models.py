@@ -17,4 +17,4 @@ entries=[
  'body':'Living in the world of engineering is cool and better for the revolution of the world',
  'date':'20-12-2018'
  }
- ]
+]
