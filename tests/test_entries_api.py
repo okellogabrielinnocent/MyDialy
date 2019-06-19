@@ -64,4 +64,22 @@ class TestEntries(TestBase):
         self.assertIn(entry[1], str(result.data), 404)
 
 
-    
+    '''def test_update_entry(self):
+        response = self.client.put('/API/v1/entries/1', data=json.dumps(
+            dict(title="Software Engineer", body="Technical Leadership to learn from your ego and teach others the new technologies")),
+                         content_type='application/json')
+
+        # get data
+        response = self.client.get('/api/v1/entries')
+        self.assertEqual(response.status_code, 200)
+        
+        results = json.loads(response.data.decode())
+        
+        for entry in results:
+            result = self.client.get(
+                'api/v1/entries/{}'.format(entry[2]),
+                content_type='application/json',
+                data=json.dumps(entry1))
+                
+        self.assertEqual(result.status_code, 200)
+        self.assertIn(b"Software Engineer", result.data)'''
